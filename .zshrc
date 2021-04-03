@@ -28,8 +28,10 @@ compinit
 #   alias  #
 #----------#
 alias vim="nvim"
-alias ll="ls -alh"
-alias la="ls -a"
+alias ll="ls -alh --color=auto --group-directories-first"
+alias la="ls -a --color=auto --group-directories-first"
+alias ls="ls --color=auto --group-directories-first"
+alias l="ls --color=auto --group-directories-first"
 alias x="exit"
 alias sc="cd ~/.local/bin/scripts"
 
