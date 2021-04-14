@@ -37,6 +37,7 @@ alias vdir="vdir --color=auto"
 alias grep="grep --color=auto"
 alias x="exit"
 alias sc="cd ~/.local/bin/scripts"
+alias ..="cd .."
 
 # youtube-dl for Audio only - second line for Playlists
 alias mp3="youtube-dl --ignore-errors -f bestaudio --extract-audio --audio-format mp3 --audio-quality 0 -o '~/Music/youtube/%(title)s.%(ext)s' "$1""
