@@ -40,12 +40,12 @@ alias sc="cd ~/.local/bin/scripts"
 alias ..="cd .."
 
 # youtube-dl for Audio only - second line for Playlists
-alias mp3="youtube-dl --ignore-errors -f bestaudio --extract-audio --audio-format mp3 --audio-quality 0 -o '~/Music/youtube/%(title)s.%(ext)s' "$1""
-alias mp3p="youtube-dl --ignore-errors -f bestaudio --extract-audio --audio-format mp3 --audio-quality 0 -o '~/Music/youtube/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' "$1""
+alias mp3="youtube-dl --ignore-errors -f bestaudio --extract-audio --audio-format mp3 --audio-quality 0 -o '~/Musik/youtube/%(title)s.%(ext)s' "$1""
+alias mp3p="youtube-dl --ignore-errors -f bestaudio --extract-audio --audio-format mp3 --audio-quality 0 -o '~/Musik/youtube/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' "$1""
 
 # youtube-dl for best Video - second line for Playlists (-k for keep Videos after Merging)
-alias dlv="youtube-dl --ignore-errors -o -k '~/Video/youtube/%(title)s.%(ext)s' "$1""
-alias dlp="youtube-dl --ignore-errors -o '~/Video/youtube/%(playlist)s/%(title)s.%(ext)s' "$1""
+alias dlv="youtube-dl --ignore-errors -o '~/Videos/youtube/%(title)s.%(ext)s' "$1""
+alias dlp="youtube-dl --ignore-errors -o '~/Videos/youtube/%(playlist)s/%(title)s.%(ext)s' "$1""
 
 #-----------#
 # bin files #
