@@ -53,7 +53,10 @@ alias dlp="youtube-dl --ignore-errors -o '~/Videos/youtube/%(playlist)s/%(title)
 export PATH="$HOME/.local/bin/scripts:$PATH"
 
 #-----------#
+#  plugins  #
+#-----------#
+source /home/markus/.config/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.plugin.zsh
+source /home/markus/.config/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.plugin.zsh
 source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
-
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
